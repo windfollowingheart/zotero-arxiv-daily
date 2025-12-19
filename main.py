@@ -193,7 +193,8 @@ if __name__ == '__main__':
     #         logger.info("Using Local LLM as global LLM.")
     #         set_global_llm(lang=args.language)
 
-    html = render_email(papers)
+    # html = render_email(papers)
+    html = "hello"
     logger.info("Sending email...")
     print(args.sender, args.receiver, args.sender_password, args.smtp_server, args.smtp_port, html)
     send_email(args.sender, args.receiver, args.sender_password, args.smtp_server, args.smtp_port, html)
