@@ -198,6 +198,6 @@ if __name__ == '__main__':
     logger.info("Sending email...")
     print(args.sender, args.receiver, args.sender_password, args.smtp_server, args.smtp_port, html)
     # send_email(args.sender, args.receiver, args.sender_password, args.smtp_server, args.smtp_port, html)
-    send_email("2744244824@qq.com", args.receiver, "lezvcfowsqekddih", "smtp.qq.com", "465", html)
+    send_email("windheartensorflow@163.com", "wangqiteng@hust.edu.cn", "windheartensorflow@163.com", "stmp.163.com", "465", html)
     logger.success("Email sent successfully! If you don't receive the email, please check the configuration and the junk box.")
 
